@@ -1,5 +1,5 @@
 # Projeto-Resilia-Modulo-01
-<h2>Sobre nós</h2>
+<h2>Sobre nós, missão e valores</h2>
   <hr>
   
 
