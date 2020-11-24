@@ -9,22 +9,22 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light cor-destaque">
-            <a class="navbar-brand" href="#">ResiliaFlix</a>
+        <nav class="navbar navbar-expand-lg navbar-light cor-destaque fixed-top">
+            <a class="navbar-brand" href="#"><img class="logo" src="https://fontmeme.com/permalink/201124/2013f6c824342a9649a8ab35fa316c99.png" alt="logo do site Resilia Flix"></a></h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Login</a>
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="./index.html"><h5 class="menu">Inicio</h5><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./login.html"><h5 class="menu">Login</h5></a>
+                    <a class="nav-link" href="#"><h5 class="menu">Contato</h5> </a>
                     <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
                 </div>
                 <nav class="navbar navbar-light cor-destaque">
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </nav>
             </div>
@@ -39,23 +39,40 @@
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item tamanho-poster active">
-                        <img src="./img_temp/dor.jpg" class="d-block w-20" alt="...">
+                <div class="carousel-inner tamanho-carrossel">
+                    <div class="carousel-item active">
+                        <figure class="img-carrossel">
+                            <img src="./img_temp/dor.jpg" class="d-block w-100" alt="...">
+                            <img src="./img_temp/volver.jpg" class="d-block w-100" alt="...">
+                            <img src="./img_temp/maEducacao.jpg" class="d-block w-100" alt="...">
+                            <img src="./img_temp/hable_com_ella.jpg" class="d-block w-100" alt="...">
+                        </figure>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <figure class="img-carrossel">
+                            <img src="./img_temp/madre.jpg" class="d-block w-100" alt="...">
+                            <img src="./img_temp/lei_desejo.jpg" class="d-block w-100" alt="...">
+                            <img src="./img_temp/tacones.jpg" class="d-block w-100" alt="...">
+                            <img src="./img_temp/Os_Amantes_Passageiros.jpg" class="d-block w-100" alt="...">
+                        </figure>
+                        
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <figure class="img-carrossel">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="..." class="d-block w-100" alt="...">
+                        </figure>
+                        
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
