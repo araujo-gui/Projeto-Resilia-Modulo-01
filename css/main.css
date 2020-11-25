@@ -1,6 +1,8 @@
 main {
+    width: 100vmax;
     background-color: black;
 }
+
 .cor-destaque {
     background-color: #ffff00;
 }
@@ -38,6 +40,7 @@ main {
 }
 
 .footer {
+    bottom: 0;
     width: 100vmax;
     display: flex;
     justify-content: center;
@@ -52,4 +55,17 @@ main {
     justify-content: center;
     align-items: center;
     height: 50px;
+}
+
+
+/* Modal */
+.modal-dialog {
+    display: flex;
+    width: 500px;
+    height: 450px;
+}
+
+.modal-dialog a {
+    text-decoration: none;
+    color: #ffff00;
 }
