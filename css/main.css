@@ -1,14 +1,8 @@
 main {
     width: 100vmax;
     background-color: black;
-}
-
-.cor-destaque {
-    background-color: #ffff00;
-}
-
-.logo {
-    width: 150px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .carrossel-bloco {
@@ -38,25 +32,6 @@ main {
     width: 100px;
     height: auto;
 }
-
-.footer {
-    bottom: 0;
-    width: 100vmax;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-
-.rodape {
-    width: 100vmax;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-}
-
 
 /* Modal */
 .modal-dialog {
