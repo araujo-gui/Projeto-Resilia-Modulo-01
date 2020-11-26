@@ -21,19 +21,19 @@
 ### **Autores:**
 <hr>
 <h3>Daniel Basílio</h3>
-- Meus projetos - [GitHub]()
-- Meus trabalhos - [LinkedIn]()
-- Minha vida - [Instagram]()
+- Meus projetos - [GitHub]()<br>
+- Meus trabalhos - [LinkedIn]()<br>
+- Minha vida - [Instagram]()<br>
 
 <h3>Fernanda Turbay</h3>
-- Meus projetos - [GitHub]()
-- Meus trabalhos - [LinkedIn]()
-- Minha vida - [Instagram]()
+- Meus projetos - [GitHub]()<br>
+- Meus trabalhos - [LinkedIn]()<br>
+- Minha vida - [Instagram]()<br>
 
 <h3>Guilhermina Araújo</h3>
-- Meus projetos - [GitHub]()
-- Meus trabalhos - [LinkedIn]()
-- Minha vida - [Instagram]()
+- Meus projetos - [GitHub]()<br>
+- Meus trabalhos - [LinkedIn]()<br>
+- Minha vida - [Instagram]()<br>
 
 <h3>Roberta Santos</h3>
 - Meus projetos - [GitHub](https://github.com/LaDespistada1981)<br>
@@ -41,6 +41,6 @@
 - Minha vida - [Instagram](https://www.instagram.com/ladespistada/)<br>
 
 <h3>Vinícius Almeida de Souza</h3>
-- Meus projetos - [GitHub](https://github.com/viniciusalmeidas)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/valmsou/?originalSubdomain=br)
-- Minha vida - [Instagram](https://www.instagram.com/v.alma_br/)
+- Meus projetos - [GitHub](https://github.com/viniciusalmeidas)<br>
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/valmsou/?originalSubdomain=br)<br>
+- Minha vida - [Instagram](https://www.instagram.com/v.alma_br/)<br>
