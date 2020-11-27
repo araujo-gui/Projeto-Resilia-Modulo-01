@@ -31,9 +31,9 @@
 - Minha vida - [Instagram]()<br>
 
 <h3>Guilhermina Araújo</h3>
-- Meus projetos - [GitHub]()<br>
-- Meus trabalhos - [LinkedIn]()<br>
-- Minha vida - [Instagram]()<br>
+- Meus projetos - [GitHub](https://github.com/araujo-gui)<br>
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)<br>
+- Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)<br>
 
 <h3>Roberta Santos</h3>
 - Meus projetos - [GitHub](https://github.com/LaDespistada1981)<br>
