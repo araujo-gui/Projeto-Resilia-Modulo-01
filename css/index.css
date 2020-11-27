@@ -1,0 +1,52 @@
+.carrossel {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container {
+    background-color: black;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    margin: 30px auto;
+}
+
+.img-carrossel {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    height: 370px;
+    width: auto;
+    margin: 0;
+}
+
+.img-carrossel:hover {
+    height: 390px;
+    cursor: pointer;
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+
+/* Modal */
+.modal-dialog {
+    display: flex;
+    width: 500px;
+    height: 450px;
+}
+
+.modal-dialog a {
+    text-decoration: none;
+    color: #ffff00;
+}
