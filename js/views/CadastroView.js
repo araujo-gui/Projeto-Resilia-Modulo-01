@@ -7,17 +7,13 @@ class CadastroView {
     addEndereco(endereco) {
         
         let inputEndereco = document.querySelector("#inputAddress");
-
         inputEndereco.value = endereco;
-
     }
 
     addBairro(bairro) {
         
         let inputBairro = document.querySelector("#inputAddress2");
-
         inputBairro.value = bairro;
-    
     }
 
     addCidade(cidade) {

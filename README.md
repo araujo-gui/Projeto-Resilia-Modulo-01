@@ -21,9 +21,9 @@
 ### **Autores:**
 <hr>
 <h3>Daniel Basílio</h3>
-- Meus projetos - [GitHub]()<br>
-- Meus trabalhos - [LinkedIn]()<br>
-- Minha vida - [Instagram]()<br>
+- Meus projetos - [GitHub](https://github.com/Dbasilio-dev)<br>
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)<br>
+- Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)<br>
 
 <h3>Fernanda Turbay</h3>
 - Meus projetos - [GitHub]()<br>
