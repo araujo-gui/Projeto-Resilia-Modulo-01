@@ -4,48 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/cadastro.css">
     <script defer src="./js/controller.js"></script>
     <script defer src="./js/view.js"></script>
     <script defer src="./js/model.js"></script>
     <script defer src="./js/main.js"></script>
-    <title>Resilia Flix 2.0</title>
+    <title>Resilia Flix 2.0 - Cadastro</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light cor-destaque fixed-top">
-            <a class="navbar-brand" href="#"><img class="logo" src="https://fontmeme.com/permalink/201124/2013f6c824342a9649a8ab35fa316c99.png" alt="logo do site Resilia Flix"></a></h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="./index.html"><h5 class="menu">Inicio</h5><span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="./contato.html"><h5 class="menu">Contato</h5> </a>
+        <div id="navBar">
+            <nav class="navbar navbar-expand-lg navbar-light cor-destaque fixed-top">
+                <a class="navbar-brand"  href="#"><img class="logo" src="./img/logo.png" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon iconeBotao"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav itens-menu">
+                        <a class="nav-link" href="./index.html"><h5 class="menu">Inicio</h5><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" data-toggle="modal" data-target="#modal-login" href="#"><h5 class="menu">Login</h5></a>
+                        <a class="nav-link" href="./contato.html"><h5 class="menu">Contato</h5></a>
+                        <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                    </div>
+                    <nav class="navbar navbar-light cor-destaque">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 input" type="search" placeholder="Busca por filme..." aria-label="Search">
+                            <button class="btn btn-dark my-2 my-sm-0 botao" type="submit">Buscar</button>
+                        </form>
+                    </nav>
+
+        
+
                 </div>
-                <nav class="navbar navbar-light cor-destaque">
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </nav>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
+    
 
     <main>
         <section class="formulario positin-absolute">
             <form class="form">
-            
-                <br><br><br><br>
-                <h1 class="titulo">Cadastro</h1>
+                <br><br><br>
+                <h3 class="titulo">Cadastro</h3>
                 <div class="form-group">
                     <label for="inputAddress">Nome Completo</label>
-                    <input type="text" class="form-control" id="name" placeholder="1234 Main St">
+                    <input type="text" class="form-control" id="name" placeholder="Digite seu nome.">
                 </div>
-                <div class="form-group">
-                    <label for="inputAddress">Endereço</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" disabled>
+
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="inputZip">CEP</label>
+                        <input type="text" class="form-control" id="inputZip" oninput="cadastroController.autoComplete()">
+                    </div>
+                    <div class="form-group col-md-9">
+                        <label for="inputAddress">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Logradouro.">
+                    </div>
+                  
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-2">
@@ -59,17 +76,26 @@
                 </div>
                 
                 <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-9">
                         <label for="inputCity">Cidade</label>
+
                         <input type="text" class="form-control" id="inputCity" disabled>
+
                     </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-3">
                         <label for="inputState">UF</label>
+
                         <input type = "text" id="inputState" class="form-control" disabled>
+
+                        <select id="inputState" class="form-control">
+                            <option selected>UF...</option>
+                            <option>...</option>
+                        </select>
+
                     </div>
                     <div class="form-group col-md-2">
-                        <label for="inputZip">CEP</label>
-                        <input type="text" class="form-control" id="inputZip" oninput="cadastroController.autoComplete()">
+                        <!-- <label for="inputZip">CEP</label>
+                        <input type="text" class="form-control" id="inputZip" oninput="cadastroController.autoComplete()"> -->
                     </div>
                 </div>
                 <button type="submit" class="btn cor-destaque"><strong>Enviar</strong></button>
@@ -77,11 +103,21 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <section class="rodape cor-destaque">
-            <h5 ><i class="fas fa-copyright    ">Copyright by Resilia 2020</i></h5>
-        </section>  
+            <h5 class="copy">&copy; Copyright by ResiliaFlixTeam 2020</h5>
+            <small>
+                <ul class="team">
+                    <li class="lista"><a href="http://github.com/Dbasilio-dev" target="_blank" class="fa fa-github">Daniel Basilio</a></li>
+                    <li class="lista"><a href="http://github.com/fernandaturbay" target="_blank" class="fa fa-github">Fernanda Turbay</a></li>
+                    <li class="lista"><a href="http://github.com/araujo-gui" target="_blank" class="fa fa-github">Guilhermina Araújo</a></li>
+                    <li class="lista"><a href="http://github.com/LaDespistada1981" target="_blank" class="fa fa-github">Roberta Santos</a></li>
+                    <li class="lista"><a href="http://github.com/viniciusalmeidas" target="_blank" class="fa fa-github">Vinicius Almeida</a></li>
+                </ul>
+            </small>
+        </section>
     </footer>
+
     <script src="js/models/CadastroModel.js"></script>
     <script src="js/controllers/CadastroController.js"></script>
     <script src="js/helpers/JsonHelper.js"></script>

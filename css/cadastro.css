@@ -1,45 +1,25 @@
 main {
-    color: white;
-    height: 100vh;
-}
-
-main {
     background-color: black;
-}
-
-.cor-destaque {
-    background-color: #ffff00;
-}
-
-.logo {
-    width: 150px;
-}
-
-.footer {
-    width: 100vmax;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-
-.rodape {
-    width: 100vmax;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    color: white;
+    min-height: 100vh;
 }
 
 .titulo {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .formulario {
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    align-content: center;
+    width: 100vmax;
     height: auto;
+}
+
+.form {
+    position: relative;
+    width: 60%;
+    height: 30vh;
 }
