@@ -3,7 +3,7 @@ class JsonHelper {
     constructor(){
     };
 
-    static _converter(json) {
+    static converter(json) {
         
         return JSON.parse(json);
     }
