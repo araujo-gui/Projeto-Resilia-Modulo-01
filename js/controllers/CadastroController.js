@@ -9,7 +9,7 @@ class CadastroController {
         let cep = document.querySelector("#inputZip").value;
         
         let cadastroModel = new CadastroModel();
-        respon = cadastroModel.buscar(cep);
+        cadastroModel.buscar(cep);
         
         let cadastroView = new CadastroView();
 
