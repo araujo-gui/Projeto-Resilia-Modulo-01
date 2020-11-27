@@ -9,9 +9,14 @@ class CadastroController {
         let cep = document.querySelector("#inputZip").value;
         
         let cadastroModel = new CadastroModel();
+        respon = cadastroModel.buscar(cep);
+        
+        let cadastroView = new CadastroView();
 
-        cadastroModel.buscar(cep);
-
+        cadastroView.addEndereco(cadastroModel.endereco);
+        cadastroView.addBairro(cadastroModel.bairro);
+        cadastroView.addCidade(cadastroModel.cidade);
+        cadastroView.addUf(cadastroModel.uf);
     }
 }
 
