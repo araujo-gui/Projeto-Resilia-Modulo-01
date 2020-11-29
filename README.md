@@ -40,7 +40,7 @@
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
 - Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
 
-<h3>Vinícius Almeida de Souza</h3>
+**Vinícius Almeida de Souza**
 - Meus projetos - [GitHub](https://github.com/viniciusalmeidas)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/valmsou/?originalSubdomain=br)
 - Minha vida - [Instagram](https://www.instagram.com/v.alma_br/)
