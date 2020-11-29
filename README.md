@@ -17,25 +17,24 @@
 
 
 <hr>
-
 ### **Autores:**
 <hr>
-<h3>Daniel Basílio</h3>
+**Daniel Basílio**
 - Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)
 - Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)
 
-<h3>Fernanda Turbay</h3>
+**Fernanda Turbay**
 - Meus projetos - [GitHub]()
 - Meus trabalhos - [LinkedIn]()
 - Minha vida - [Instagram]()
 
-<h3>Guilhermina Araújo</h3>
+**Guilhermina Araújo**
 - Meus projetos - [GitHub](https://github.com/araujo-gui)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)
 - Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)
 
-<h3>Roberta Santos</h3>
+**Roberta Santos**
 - Meus projetos - [GitHub](https://github.com/LaDespistada1981)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
 - Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
