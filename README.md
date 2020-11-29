@@ -18,7 +18,7 @@
 
 <hr>
 ### **Autores:**
-<hr>
+
 **Daniel Basílio**
 - Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)
