@@ -9,6 +9,10 @@ main {
     margin-bottom: 0px;
 }
 
+.form-control.disable{
+    background-color: rgba(245, 241, 238, 0.74);
+}
+
 .formulario {
     display: flex;
     justify-content: center;
