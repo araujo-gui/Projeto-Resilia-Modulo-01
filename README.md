@@ -19,28 +19,28 @@
 <hr>
 
 ### **Autores:**
-<hr>
-<h3>Daniel Basílio</h3>
-- Meus projetos - [GitHub](https://github.com/Dbasilio-dev)<br>
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)<br>
-- Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)<br>
 
-<h3>Fernanda Turbay</h3>
-- Meus projetos - [GitHub]()<br>
-- Meus trabalhos - [LinkedIn]()<br>
-- Minha vida - [Instagram]()<br>
+**Daniel Basílio**
+- Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)
+- Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)
 
-<h3>Guilhermina Araújo</h3>
-- Meus projetos - [GitHub](https://github.com/araujo-gui)<br>
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)<br>
-- Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)<br>
+**Fernanda Turbay**
+- Meus projetos - [GitHub]()
+- Meus trabalhos - [LinkedIn]()
+- Minha vida - [Instagram]()
 
-<h3>Roberta Santos</h3>
-- Meus projetos - [GitHub](https://github.com/LaDespistada1981)<br>
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)<br>
-- Minha vida - [Instagram](https://www.instagram.com/ladespistada/)<br>
+**Guilhermina Araújo**
+- Meus projetos - [GitHub](https://github.com/araujo-gui)
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)
+- Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)
 
-<h3>Vinícius Almeida de Souza</h3>
-- Meus projetos - [GitHub](https://github.com/viniciusalmeidas)<br>
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/valmsou/?originalSubdomain=br)<br>
-- Minha vida - [Instagram](https://www.instagram.com/v.alma_br/)<br>
+**Roberta Santos**
+- Meus projetos - [GitHub](https://github.com/LaDespistada1981)
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
+- Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
+
+**Vinícius Almeida de Souza**
+- Meus projetos - [GitHub](https://github.com/viniciusalmeidas)
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/valmsou/?originalSubdomain=br)
+- Minha vida - [Instagram](https://www.instagram.com/v.alma_br/)
