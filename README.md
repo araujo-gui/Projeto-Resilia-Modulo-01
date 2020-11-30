@@ -41,8 +41,6 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
 <p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/print-cadastro.png" width="450" height="350"></p>
 
 
-### Não consigo assistir os filmes. O que devo fazer?
-
 
 <hr>
 
