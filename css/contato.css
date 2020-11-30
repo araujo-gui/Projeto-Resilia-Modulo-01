@@ -5,13 +5,14 @@ body {
 main {
     color: white;
     width: 100vmax;
-    height: 100vh;
+    height: auto;
 }
 
 .titulo {
     text-align: center;
     margin-bottom: 10px;
 }
+
 h1 {
-    color: white;
+    color: black;
 }
