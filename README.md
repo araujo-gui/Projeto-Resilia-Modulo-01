@@ -1,4 +1,4 @@
-# Projeto-Resilia-Modulo-01
+# Projeto Módulo 1 - RESILIA 
 ## Sobre nós
   <hr>
   
