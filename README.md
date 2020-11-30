@@ -1,24 +1,52 @@
 # Projeto-Resilia-Modulo-01
-<h2>Sobre nós, missão e valores</h2>
+## Sobre nós
   <hr>
+  
+ **Missão:** "Transformar a experiência de escolher um filme, e tornar esse momento mágico"
+ 
+ **Visão:** "Ser a maior e melhor pataforma de indicação de filmes até 2025"
+ 
+ **Valores:** 
+ 
+ 1. **Satisfação do cliente:** ele é a razão da nossa existência;
+ 2. **Paixão pelo cinema:** As histórias mexem com a gente, trazem novas perspectivas e aproximam as pessoas;
+ 3. **Criatividade:** A desobediência é uma virtude 
+ 4. **Valorização e respeito às pessoas:** o seu tempo é precioso;
+ 
 
-
-<h2>O quê o site faz ?</h2>
+## O quê o site faz ?
 <hr>
 
-<h2>FAQ</h2>
+Você já sentiu que tudo que assiste na parece ter o mesmo roteiro? os algoritmos traçam seu perfil e te impedem de explorar o desconhecido.
+Nós acreditamos que pessoas são instantes e é assim que te indicamos os melhores filmes para cada momento.
+
+Através da RESILIAFLIX você consegue assistir filmes que encaixam ao seu gosto e jeito, dependendo do momento que em se encontra! transformando momentos simples em instantes inesquecíveis.
+
+<p align="center">
+ <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/print-index.png" width="400" height="300"> 
+</p>
+
+## F.A.Q
 <hr>
-<h5>Como me cadastro no site?</h5>
 
-<h5>Não consigo assistir os filmes. O que devo fazer?</h5>
+### Como me cadastro ?
+
+Sua primeira vez no site?
+Você deve acessar o página de Login e Clicar em "Não tenho cadastro. Cadastrar-me".
+
+<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/print-login.png" width="450" height="350"></p>
+
+Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) será preenchido automaticamente.
+
+<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/print-cadastro.png" width="450" height="350"></p>
 
 
-
+### Não consigo assistir os filmes. O que devo fazer?
 
 
 <hr>
 
-### **Autores:**
+## **Autores:**
 
 **Daniel Basílio**
 - Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
