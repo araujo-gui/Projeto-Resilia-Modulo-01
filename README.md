@@ -52,7 +52,7 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
   
   - Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
   - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)
-  - Minha vida - [Instagram](https://www.instagram.com/basiliocoms/) |
+  - Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)
 
   
 <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/fernanda.jpeg" width="100" height="100">
