@@ -1,11 +1,16 @@
-body {
+/* body {
     background-color: black;
-}
+} */
 
 main {
-    color: white;
+    color: black;
     width: 100vmax;
     height: auto;
+}
+
+.contato {
+    padding: 0 15px;
+    margin-top: 100px;
 }
 
 .titulo {
@@ -13,6 +18,26 @@ main {
     margin-bottom: 10px;
 }
 
-h1 {
-    color: black;
+.titulo-pagina {
+    color: red;
+    font-size: 15pt;
+}
+
+.contatos {
+    display: flex;
+    margin-top: 20px;
+}
+
+.altura {
+    height: 350px;
+}
+
+@media(max-width:670px) {
+    
+    main {
+        color: black;
+        width: 100vmax;
+        height: fit-content;
+    }
+    
 }
