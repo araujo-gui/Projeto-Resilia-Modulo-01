@@ -1,0 +1,15 @@
+.container {
+    width: 100vmax;
+    margin-top: 80px;
+    color: white;
+}
+
+.poster-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    height: 380px;
+    width: auto;
+}

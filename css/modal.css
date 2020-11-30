@@ -1,0 +1,11 @@
+/* Modal */
+.modal-dialog {
+    display: flex;
+    width: 500px;
+    height: 450px;
+}
+
+.modal-dialog a {
+    text-decoration: none;
+    color: #ffff00;
+}
