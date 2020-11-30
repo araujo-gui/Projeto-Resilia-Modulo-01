@@ -47,36 +47,31 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
 <hr>
 
 ## **Autores:**
-<div class="container">
   
-  <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/daniel.jpeg" width="100" height="100"> 
+  <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/daniel.jpeg" width="100" height="100">
   
-  <div>
-  
-  **Daniel Basílio**
+**Daniel Basílio**
   
   - Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
   - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)
-  - Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)
-  
-  </div>
-</div>
+  - Minha vida - [Instagram](https://www.instagram.com/basiliocoms/) |
 
-<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/fernanda.jpeg" width="100" height="100"></p>
+  
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/fernanda.jpeg" width="100" height="100">
 
 **Fernanda Turbay**
 - Meus projetos - [GitHub]()
 - Meus trabalhos - [LinkedIn]()
 - Minha vida - [Instagram]()
 
-<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/guilhermina.jpeg" width="100" height="100"></p>
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/guilhermina.jpeg" width="100" height="100">
 
 **Guilhermina Araújo**
 - Meus projetos - [GitHub](https://github.com/araujo-gui)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)
 - Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)
 
-<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/roberta.jpeg" width="100" height="100"></p>
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/roberta.jpeg" width="100" height="100">
 
 **Roberta Santos**
 - Meus projetos - [GitHub](https://github.com/LaDespistada1981)
@@ -90,10 +85,4 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/valmsou/?originalSubdomain=br)
 - Minha vida - [Instagram](https://www.instagram.com/v.alma_br/)
 
-<script>
 
-.container{
-  display: flex
-}
-
-</script>
