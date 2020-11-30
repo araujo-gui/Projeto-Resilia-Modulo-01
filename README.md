@@ -58,9 +58,9 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
 <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/fernanda.jpeg" width="100" height="100">
 
 **Fernanda Turbay**
-- Meus projetos - [GitHub]()
-- Meus trabalhos - [LinkedIn]()
-- Minha vida - [Instagram]()
+- Meus projetos - [GitHub](https://github.com/fernandaturbay)
+- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/fernandaturbay/)
+- Minha vida - [Instagram](https://www.instagram.com/fernandaturbay/)
 
 <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/guilhermina.jpeg" width="100" height="100">
 
