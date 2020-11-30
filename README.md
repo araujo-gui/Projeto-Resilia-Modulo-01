@@ -14,11 +14,11 @@
  4. **Valorização e respeito às pessoas:** o seu tempo é precioso;
  
 
-## O quê o site faz ?
+## O que fazemos?
 <hr>
 
-Você já sentiu que tudo que assiste na parece ter o mesmo roteiro? os algoritmos traçam seu perfil e te impedem de explorar o desconhecido.
-Nós acreditamos que pessoas são instantes e é assim que te indicamos os melhores filmes para cada momento.
+Você já sentiu que tudo que assiste parece ter o mesmo roteiro? Lá fora, os algoritmos traçam seu perfil e te impedem de explorar o desconhecido.
+Aqui, nós acreditamos que pessoas são instantes, e é assim que te indicamos os melhores filmes para cada momento vivido.
 
 Através da RESILIAFLIX você consegue assistir filmes que encaixam ao seu gosto e jeito, dependendo do momento que em se encontra! transformando momentos simples em instantes inesquecíveis.
 
@@ -31,7 +31,7 @@ Através da RESILIAFLIX você consegue assistir filmes que encaixam ao seu gosto
 
 ### Como me cadastro ?
 
-Sua primeira vez no site?
+Sua primeira vez conosco?
 Você deve acessar o página de Login e Clicar em "Não tenho cadastro. Cadastrar-me".
 
 <p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/print-login.png" width="450" height="350"></p>
@@ -47,28 +47,53 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
 <hr>
 
 ## **Autores:**
+<div class="container">
+  
+  <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/daniel.jpeg" width="100" height="100"> 
+  
+  <div>
+  
+  **Daniel Basílio**
+  
+  - Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
+  - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)
+  - Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)
+  
+  </div>
+</div>
 
-**Daniel Basílio**
-- Meus projetos - [GitHub](https://github.com/Dbasilio-dev)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/daniel-basilio-91a8341ab/)
-- Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)
+<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/fernanda.jpeg" width="100" height="100"></p>
 
 **Fernanda Turbay**
 - Meus projetos - [GitHub]()
 - Meus trabalhos - [LinkedIn]()
 - Minha vida - [Instagram]()
 
+<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/guilhermina.jpeg" width="100" height="100"></p>
+
 **Guilhermina Araújo**
 - Meus projetos - [GitHub](https://github.com/araujo-gui)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)
 - Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)
+
+<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/roberta.jpeg" width="100" height="100"></p>
 
 **Roberta Santos**
 - Meus projetos - [GitHub](https://github.com/LaDespistada1981)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
 - Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
 
+<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/vinicius.jpeg" width="100" height="100"></p>
+
 **Vinícius Almeida de Souza**
 - Meus projetos - [GitHub](https://github.com/viniciusalmeidas)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/valmsou/?originalSubdomain=br)
 - Minha vida - [Instagram](https://www.instagram.com/v.alma_br/)
+
+<script>
+
+.container{
+  display: flex
+}
+
+</script>
