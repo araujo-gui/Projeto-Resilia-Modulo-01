@@ -78,7 +78,7 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
 - Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
 
-<p align="center"><img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/vinicius.jpeg" width="100" height="100"></p>
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/vinicius.jpeg" width="100" height="100">
 
 **Vinícius Almeida de Souza**
 - Meus projetos - [GitHub](https://github.com/viniciusalmeidas)
