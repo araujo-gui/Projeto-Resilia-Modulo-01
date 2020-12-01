@@ -1,10 +1,10 @@
-.carrossel {
-    background-color: black;
+.genero-filme {
+    color: white;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .container {
@@ -17,7 +17,7 @@
     height: 400px;
     align-items: center;
     align-content: center;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 .img-carrossel {
@@ -29,6 +29,6 @@
 }
 
 .img-carrossel:hover {
-    height: 380px;
+    height: 390px;
     cursor: pointer;
 }

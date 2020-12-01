@@ -38,13 +38,13 @@ class View
     {
         console.log(dados)
         posterFilme.src = dados.Poster;
-        tituloFilme.textContent = dados.Title;
-        anoLancamentoFilme.textContent = dados.Year;
-        dataLancamentoFilme.textContent = dados.Released;
-        generoFilme.textContent = dados.Genre;
-        diretorFilme.textContent = dados.Director;
-        elencoFilme.textContent = dados.Actors;
-        sinopseFilme.textContent = dados.Plot;
+        tituloFilme.textContent = `Título: ${dados.Title}`;
+        anoLancamentoFilme.textContent = `Ano de lançamento: ${dados.Year}`;
+        dataLancamentoFilme.textContent = `Data de estreia: ${dados.Released}`;
+        generoFilme.textContent = `Gênero: ${dados.Genre}`;
+        diretorFilme.textContent = `Direção: ${dados.Director}`;
+        elencoFilme.textContent = `Elenco: ${dados.Actors}`;
+        sinopseFilme.textContent = `Sinopse: ${dados.Plot}`;
     }
 }
 
@@ -72,8 +72,6 @@ class Controller
         })
 
         pedido.send()
-
     }
     
 };
-
