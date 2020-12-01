@@ -21,6 +21,7 @@ botao.addEventListener('click', (e)=>
 //     Controller.carregaInfos(input.value)
 // })
 
+
 class Model
 {
     constructor()
