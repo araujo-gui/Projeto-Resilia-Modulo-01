@@ -10,7 +10,7 @@
  
  1. **Satisfação do cliente:** ele é a razão da nossa existência;
  2. **Paixão pelo cinema:** As histórias mexem com a gente, trazem novas perspectivas e aproximam as pessoas;
- 3. **Criatividade:** A desobediência é uma virtude 
+ 3. **Criatividade:** A desobediência é uma virtude; 
  4. **Valorização e respeito às pessoas:** o seu tempo é precioso;
  
 
@@ -20,7 +20,7 @@
 Você já sentiu que tudo que assiste parece ter o mesmo roteiro? Lá fora, os algoritmos traçam seu perfil e te impedem de explorar o desconhecido.
 Aqui, nós acreditamos que pessoas são instantes, e é assim que te indicamos os melhores filmes para cada momento vivido.
 
-Através da RESILIAFLIX você consegue assistir filmes que encaixam ao seu gosto e jeito, dependendo do momento que em se encontra! transformando momentos simples em instantes inesquecíveis.
+Através da RESILIAFLIX você consegue assistir filmes que encaixam ao seu gosto e jeito, dependendo do momento em que você se encontra! transformando momentos simples em instantes inesquecíveis.
 
 <p align="center">
  <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/print-index.png" width="400" height="300"> 
