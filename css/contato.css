@@ -61,7 +61,7 @@ main {
 
     .contatos {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 20px;
         margin-bottom: 40px;
         position: relative;
