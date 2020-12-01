@@ -51,11 +51,7 @@ main {
     margin-right: 10px;
 }
 
-<<<<<<< HEAD
-@media(max-width:670px) {
-=======
 @media only screen and (max-width: 600px) and (min-width: 400px) {
->>>>>>> a18f37f29bd44586d5864fe710b1feeb55d82cbf
     
     main {
         color: black;
@@ -76,12 +72,8 @@ main {
     .infoContact {
         display: flex;
         justify-content: center;
-<<<<<<< HEAD
-        flex-direction: row;
-=======
         flex-direction: column;
         height: fit-content;
->>>>>>> a18f37f29bd44586d5864fe710b1feeb55d82cbf
     }
 
     .altura {
