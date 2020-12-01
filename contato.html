@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/contato.css">
-    <script defer src="./js/api-gitHub.js"></script>
+    <script defer src="./js/api-gitHub2.js"></script>
     <title>Resilia Flix 2.0</title>
 </head>
 
@@ -22,7 +22,6 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon iconeBotao"></span>
             </button>
-            
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav itens-menu">
                     <a class="nav-link" href="./index.html">
@@ -40,7 +39,7 @@
                     <form class="form-inline">
                         <input class="form-control mr-sm-2 input" type="search" placeholder="Busca por filme..."
                         aria-label="Search">
-                        <button class="btn btn-dark my-2 my-sm-0 botao" type="submit">Buscar</button>
+                        <button id="buscar" class="btn btn-dark my-2 my-sm-0 botao" type="submit">Buscar</button>
                     </form>
                 </nav>
             </div>
@@ -51,27 +50,36 @@
 <main class="bg-black">
     <section class="contato">
         <h5 class="titulo-pagina display-3">Contato</h5>
-        
+        <!-- primeiro contato -->
         <div class="row row-cols-1 row-cols-md-5 contatos">
             <div class="col mb-4">
                 <div class="card altura">
-                    <img src="./img.contato/daniel.jpeg" class="card-img-top" alt="...">
+                    <!-- <img src="./img.contato/daniel.jpeg" class="card-img-top" alt="..."> -->
+                    <img id="img-1"src="" class="card-img-top" alt="...">
+
                     <div class="card-body">
                         <div class="infoContact">
-                            <h6 class="nameContact"> Daniel Basilio </h6>
-                            <a href="https://github.com/Dbasilio-dev" target="_blank"><img src="./img.contato/github.svg" class="icon" id="hyperlink"></a>
+                            <h6 id= "name-1" class="nameContact"></h6>
+                            <a id="git-profile-1" href="" target="_blank"><img 
+                            src="./img.contato/github.svg" class="icon" id="hyperlink"></a>
+                            <!-- <h6 id= "name-1" class="nameContact"> Daniel Basilio </h6>
+                            <a id="git-profile" href="https://github.com/Dbasilio-dev" target="_blank"><img 
+                            src="./img.contato/github.svg" class="icon" id="hyperlink"></a>
+                             -->
                             <a href="https://www.linkedin.com/in/daniel-basilio-91a8341ab/" target="_blank"><img src="./img.contato/linkedin.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.instagram.com/basiliocoms/" target="_blank"><img src="./img.contato/instagram.svg" class="icon" id="hyperlink"></a>
                         </div> 
                     </div>
                 </div>
             </div>
+            
+            <!-- segundo contato -->
             <div class="col mb-4">
-                <div class="card altura">
+                <div id= "name2" class="card altura">
                     <img src="img.contato/fernanda.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="infoContact">
-                            <h6 class="nameContact"> Fernanda Turbay</h6>
+                            <h6 id= "name3" class="nameContact"> Fernanda Turbay</h6>
                             <a href="https://github.com/fernandaturbay" target="_blank"><img src="./img.contato/github.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.linkedin.com/in/fernandaturbay/" target="_blank"><img src="./img.contato/linkedin.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.instagram.com/fernandaturbay/" target="_blank"><img src="./img.contato/instagram.svg" class="icon" id="hyperlink"></a>
@@ -79,12 +87,14 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- terceiro contato -->
             <div class="col mb-4">
                 <div class="card altura">
-                    <img src="img.contato/guilhermina.jpeg" class="card-img-top" alt="...">
+                    <img id= "name4" src="img.contato/guilhermina.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="infoContact">
-                            <h6 class="nameContact daniel"> Guilhermina Araújo</h6>
+                            <h6 id= "name4" class="nameContact daniel"> Guilhermina Araújo</h6>
                             <a href="https://github.com/araujo-gui" target="_blank"><img src="./img.contato/github.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/" target="_blank"><img src="./img.contato/linkedin.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.instagram.com/guiiaaraujo_/?hl=pt-br" target="_blank"><img src="./img.contato/instagram.svg" class="icon" id="hyperlink"></a>
@@ -92,12 +102,14 @@
                     </div>
                 </div>
             </div>
+
+            <!-- quarto contato -->
             <div class="col mb-4">
                 <div class="card altura">
-                    <img src="img.contato/roberta.jpeg" class="card-img-top" alt="...">
+                    <img id= "name5" src="img.contato/roberta.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="infoContact">
-                            <h6 class="nameContact"> Roberta Santos</h6>
+                            <h6 id= "name5" class="nameContact"> Roberta Santos</h6>
                             <a href="https://github.com/LaDespistada1981" target="_blank"><img src="./img.contato/github.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.linkedin.com/in/santosroberta" target="_blank"><img src="./img.contato/linkedin.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.instagram.com/ladespistada/" target="_blank"><img src="./img.contato/instagram.svg" class="icon" id="hyperlink"></a>
@@ -105,12 +117,14 @@
                     </div>
                 </div>
             </div>
+
+            <!-- quinto contato -->
             <div class="col mb-4">
                 <div class="card altura">
                     <img src="img.contato/vinicius.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="infoContact">
-                            <h6 class="nameContact"> Vinicius Almeida</h6>
+                            <h6 id= "name6" class="nameContact"> Vinicius Almeida</h6>
                             <a href="https://github.com/viniciusalmeidas" target="_blank"><img src="./img.contato/github.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.linkedin.com/in/valmsou/?originalSubdomain=br" target="_blank"><img src="./img.contato/linkedin.svg" class="icon" id="hyperlink"></a>
                             <a href="https://www.instagram.com/v.alma_br/" target="_blank"><img src="./img.contato/instagram.svg" class="icon" id="hyperlink"></a>
@@ -143,6 +157,10 @@
                         </section>
                     </footer>
                     
+
+
+
+
                     <!-- Modal de Login -->
                     <section id="modal-entrada">
                         <div class="modal fade" id="modal-login" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -164,7 +182,7 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Senha</label>
-                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha.">
+                                                    <input type="current-password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha.">
                                                 </div>
                                                 <div class="form-group form-check">
                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
