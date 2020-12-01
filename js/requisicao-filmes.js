@@ -1,7 +1,7 @@
 let botao = document.querySelector('#botao-busca')
 let input = document.querySelector('#busca-filmes')
 let posterFilme = document.querySelector('#poster')
-let tituloFilme = document.querySelector('#title')
+let tituloFilme = document.querySelector('#exampleModalLabel')
 let anoLancamentoFilme = document.querySelector('#year')
 let dataLancamentoFilme = document.querySelector('#realeased')
 let generoFilme = document.querySelector('#genre')
@@ -14,6 +14,12 @@ botao.addEventListener('click', (e)=>
     e.preventDefault();
     Controller.carregaInfos(input.value)
 })
+
+// botao.addEventListener('click', (e)=>
+// {
+//     e.preventDefault();
+//     Controller.carregaInfos(input.value)
+// })
 
 class Model
 {
@@ -38,7 +44,7 @@ class View
     {
         console.log(dados)
         posterFilme.src = dados.Poster;
-        tituloFilme.textContent = `Título: ${dados.Title}`;
+        tituloFilme.textContent = dados.Title;
         anoLancamentoFilme.textContent = `Ano de lançamento: ${dados.Year}`;
         dataLancamentoFilme.textContent = `Data de estreia: ${dados.Released}`;
         generoFilme.textContent = `Gênero: ${dados.Genre}`;
