@@ -31,7 +31,7 @@ main {
 }
 
 .altura {
-    height: 370px;
+    height: auto;
 }
 
 .infoContact {
@@ -41,7 +41,7 @@ main {
     color: black;
 }
 
-.nameContact.daniel{
+.nameContact{
     margin-right: 60px;
 }
 
@@ -51,7 +51,7 @@ main {
     margin-right: 10px;
 }
 
-@media(max-width:670px) {
+@media(max-width:670px, min-width:360px) {
     
     main {
         color: black;
@@ -63,9 +63,17 @@ main {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
         /* transform: scale(1.0); */
         position: relative;
+        width: 100vw;
+        height: auto;
+    }
+
+    .infoContact {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .altura {
@@ -79,5 +87,7 @@ main {
     .nameContact.daniel{
         margin: 0 0;
     }
+
+
     
 }
