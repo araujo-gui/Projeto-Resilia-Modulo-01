@@ -51,7 +51,7 @@ main {
     margin-right: 10px;
 }
 
-@media(max-width:670px, min-width:360px) {
+@media only screen and (max-width: 600px) and (min-width: 400px) {
     
     main {
         color: black;
@@ -63,17 +63,17 @@ main {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
-        margin-bottom: 200px;
-        /* transform: scale(1.0); */
+        margin-bottom: 40px;
         position: relative;
         width: 100vw;
-        height: auto;
+        height: fit-content;
     }
 
     .infoContact {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        height: fit-content;
     }
 
     .altura {
@@ -87,7 +87,4 @@ main {
     .nameContact.daniel{
         margin: 0 0;
     }
-
-
-    
 }
