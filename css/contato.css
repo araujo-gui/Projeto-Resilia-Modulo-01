@@ -51,7 +51,7 @@ main {
     margin-right: 10px;
 }
 
-@media(max-width:670px, min-width:360px) {
+@media(max-width:670px) {
     
     main {
         color: black;
@@ -61,7 +61,7 @@ main {
 
     .contatos {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 20px;
         margin-bottom: 200px;
         /* transform: scale(1.0); */
@@ -73,7 +73,7 @@ main {
     .infoContact {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .altura {
