@@ -46,7 +46,7 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
 
 ## **Autores:**
   
-  <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/daniel.jpeg" width="100" height="100">
+  <img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/DB.png" width="100" height="100">
   
 **Daniel Basílio**
   
@@ -55,28 +55,28 @@ Depois disso preencha seu Nome e seu CEP. ps: seu endereço (exceto o número) s
   - Minha vida - [Instagram](https://www.instagram.com/basiliocoms/)
 
   
-<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/fernanda.jpeg" width="100" height="100">
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/FT.png" width="100" height="100">
 
 **Fernanda Turbay**
 - Meus projetos - [GitHub](https://github.com/fernandaturbay)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/fernandaturbay/)
 - Minha vida - [Instagram](https://www.instagram.com/fernandaturbay/)
 
-<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/guilhermina.jpeg" width="100" height="100">
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/GA.png" width="100" height="100">
 
 **Guilhermina Araújo**
 - Meus projetos - [GitHub](https://github.com/araujo-gui)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)
 - Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)
 
-<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/roberta.jpeg" width="100" height="100">
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/RS.png" width="100" height="100">
 
 **Roberta Santos**
 - Meus projetos - [GitHub](https://github.com/LaDespistada1981)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
 - Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
 
-<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img.contato/vinicius.jpeg" width="100" height="100">
+<img src="https://github.com/araujo-gui/Projeto-Resilia-Modulo-01/blob/main/img/VA.png" width="100" height="100">
 
 **Vinícius Almeida de Souza**
 - Meus projetos - [GitHub](https://github.com/viniciusalmeidas)

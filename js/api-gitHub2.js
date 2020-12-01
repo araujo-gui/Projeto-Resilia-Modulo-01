@@ -24,7 +24,6 @@ const gitprofile5 = document.getElementById('git-profile-5');
     constructor() { }
     
     adicionaUsuario(NomeUsuario,n) {
-      console.log('adicionando user...!');
       
       let user = new UserModel();
       user.buscaUsuario(NomeUsuario);
@@ -63,7 +62,6 @@ const gitprofile5 = document.getElementById('git-profile-5');
     _processaResponse(responseText) {
   
       let response = JSON.parse(responseText);
-      console.log(response)
       return response;
     }
   
@@ -92,7 +90,6 @@ const gitprofile5 = document.getElementById('git-profile-5');
     constructor() { }
      
     render(model,n) {
-      console.log('View:Recebi o usuário e vou criar uma visualização');
       if (n==1){
         img1.src = model.getImagem();
         name1.textContent = model.getNome();
