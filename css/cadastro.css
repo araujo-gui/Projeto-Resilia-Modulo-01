@@ -27,3 +27,12 @@ main {
     width: 60%;
     height: 30vh;
 }
+
+#success {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.invisible {
+    display: none;
+}

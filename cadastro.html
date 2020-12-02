@@ -47,12 +47,20 @@
 
     <main>
         <section class="formulario positin-absolute">
-            <form class="form">
+            <form class="form" onsubmit="cadastroController.completeReg(event)">
                 <br><br><br>
                 <h3 class="titulo">Cadastro</h3>
+                <div class="alert alert-success invisible" id="success" role="alert">
+                    Cadastrado realizado com sucesso!
+                </div>
                 <div class="form-group">
                     <label for="inputAddress">Nome Completo</label>
-                    <input type="text" class="form-control" id="name" placeholder="Digite seu nome.">
+                    <input type="text" class="form-control" id="name" placeholder="Digite seu nome." onfocus="cadastroController.resetMsg()">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Digite seu email.">
                 </div>
 
                 <div class="form-row">
