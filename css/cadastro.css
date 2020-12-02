@@ -33,6 +33,15 @@ main {
     margin-top: 5px;
 }
 
-.invisible {
+#error {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.invisibleGreen {
+    display: none;
+}
+
+.invisibleRed {
     display: none;
 }
