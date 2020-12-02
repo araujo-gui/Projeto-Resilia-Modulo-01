@@ -72,7 +72,7 @@ class Controller
     {
         let pedido = new XMLHttpRequest()
         
-        pedido.open('GET', `http://www.omdbapi.com/?t=${t}&apikey=6ee6dc4`, false)
+        pedido.open('GET', `https://www.omdbapi.com/?t=${t}&apikey=6ee6dc4`, false)
         
         pedido.addEventListener('load', ()=> 
         {
