@@ -18,9 +18,27 @@ class CadastroController {
         cadastroView.addCidade(cadastroModel.cidade);
         cadastroView.addUf(cadastroModel.uf);
     }
+
+    completeReg(event) {
+        
+        event.preventDefault();
+
+        let cadastroView = new CadastroView();
+
+        cadastroView.zeraForm();
+
+        
+        cadastroView.success();
+        
+    }
+
+    resetMsg() {
+        
+        document.querySelector("#success").classList.add("invisible");
+    }
+
+    
 }
-
-
 
 
 let cadastroController = new CadastroController();
