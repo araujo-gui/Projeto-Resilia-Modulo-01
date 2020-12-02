@@ -1,13 +1,15 @@
-let botao = document.querySelector('#botao-busca')
-let input = document.querySelector('#busca-filmes')
-let posterFilme = document.querySelector('#poster')
-let tituloFilme = document.querySelector('#exampleModalLabel')
-let anoLancamentoFilme = document.querySelector('#year')
-let dataLancamentoFilme = document.querySelector('#realeased')
-let generoFilme = document.querySelector('#genre')
-let diretorFilme = document.querySelector('#director')
-let elencoFilme = document.querySelector('#actors')
-let sinopseFilme = document.querySelector('#plot')
+let botao = document.getElementById('botao-busca')
+let input = document.getElementById('busca-filmes')
+let posterFilme = document.getElementById('poster')
+let tituloFilme = document.getElementById('exampleModalLabel')
+let anoLancamentoFilme = document.getElementById('year')
+let dataLancamentoFilme = document.getElementById('realeased')
+let generoFilme = document.getElementById('genre')
+let diretorFilme = document.getElementById('director')
+let elencoFilme = document.getElementById('actors')
+let sinopseFilme = document.getElementById('plot')
+let bacurau = document.getElementById('bacurau')
+
 
 botao.addEventListener('click', (e)=>
 {
@@ -15,11 +17,11 @@ botao.addEventListener('click', (e)=>
     Controller.carregaInfos(input.value)
 })
 
-// botao.addEventListener('click', (e)=>
-// {
-//     e.preventDefault();
-//     Controller.carregaInfos(input.value)
-// })
+botao.addEventListener('click', (e)=>
+{
+    e.preventDefault();
+    Controller.carregaInfos(input.value)
+})
 
 class Model
 {
@@ -53,7 +55,6 @@ class View
         sinopseFilme.textContent = `Sinopse: ${dados.Plot}`;
     }
 }
-
 
 
 class Controller
