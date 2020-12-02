@@ -18,7 +18,7 @@ class CadastroModel {
             request.addEventListener("load", () => {
                 
                 if(request.status == 200) {
-                    // debugger;
+                    
                     let response = request.responseText;
 
                     let consume = JsonHelper.converter(response);
@@ -31,11 +31,11 @@ class CadastroModel {
             })
             
             request.send();               
-    } else if (cep.length > 8) {
+    // } else if (cep.length > 8) {
         
-        let cadastroView = new CadastroView();
-        cadastroView.error();
-    }
+    //     let cadastroView = new CadastroView();
+    //     cadastroView.error();
+    // }
     }
     
     consomeInfo(consume) {
