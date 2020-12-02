@@ -18,7 +18,7 @@
     <header>
         <div id="navBar">
             <nav class="navbar navbar-expand-lg navbar-light cor-destaque fixed-top">
-                <a class="navbar-brand"  href="#"><img class="logo" src="./img/logo.png" alt="" srcset=""></a>
+                <a class="navbar-brand"  href="./index.html"><img class="logo" src="./img/logo.png" alt="" srcset=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon iconeBotao"></span>
                 </button>
@@ -36,15 +36,11 @@
                             <button class="btn btn-dark my-2 my-sm-0 botao" type="submit">Buscar</button>
                         </form>
                     </nav>
-
-        
-
                 </div>
             </nav>
         </div>
     </header>
     
-
     <main>
         <section class="formulario positin-absolute">
             <form class="form" onsubmit="cadastroController.completeReg(event)">
@@ -99,8 +95,8 @@
 
                     </div>
                     <div class="form-group col-md-2">
-                        <!-- <label for="inputZip">CEP</label>
-                        <input type="text" class="form-control" id="inputZip" oninput="cadastroController.autoComplete()"> -->
+                        <label for="inputZip">CEP</label>
+                        <input type="text" class="form-control" id="inputZip" oninput="cadastroController.autoComplete()">
                     </div>
                 </div>
                 <button type="submit" class="btn cor-destaque"><strong>Enviar</strong></button>
@@ -108,7 +104,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer fixed-bottom">
         <section class="rodape cor-destaque">
             <h5 class="copy">&copy; Copyright by ResiliaFlixTeam 2020</h5>
             <small>
