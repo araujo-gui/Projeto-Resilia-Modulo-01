@@ -24,10 +24,17 @@ class CadastroModel {
                     let consume = JsonHelper.converter(response);
 
                     this.consomeInfo(consume);
-                } 
+                } else {
+                    
+                    throw new Error('CEP inválido.');
+                }
             })
             
             request.send();               
+    } else if (cep.length > 8) {
+        
+        let cadastroView = new CadastroView();
+        cadastroView.error();
     }
     }
     

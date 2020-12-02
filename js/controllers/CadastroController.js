@@ -24,17 +24,31 @@ class CadastroController {
         event.preventDefault();
 
         let cadastroView = new CadastroView();
+        cadastroView.removeError();
+
+        let inputUf = document.querySelector("#inputState")
+        let cepInput = document.querySelector("#inputZip");
+        
+        if(cepInput.value.length == 8) {
+            if(inputUf.value != ""){ 
+                cadastroView.success();
+            }
+        } else {
+            cadastroView.error();
+        }
 
         cadastroView.zeraForm();
+    }
 
-        
-        cadastroView.success();
-        
+    completeSenha(event) {
+
+        event.preventDefault();
     }
 
     resetMsg() {
         
-        document.querySelector("#success").classList.add("invisible");
+        document.querySelector("#success").classList.add("invisibleGreen");
+        document.querySelector("#error").classList.add("invisibleRed");
     }
 
     

@@ -7,25 +7,46 @@ class CadastroView {
     addEndereco(endereco) {
         
         let inputEndereco = document.querySelector("#inputAddress");
-        inputEndereco.value = endereco;
+        if(endereco != undefined) {
+            inputEndereco.value = endereco;
+        } else {
+            inputEndereco.value = "";
+        }    
+        
     }
 
     addBairro(bairro) {
         
         let inputBairro = document.querySelector("#inputAddress2");
-        inputBairro.value = bairro;
+        if(bairro != undefined) {
+            inputBairro.value = bairro;
+        } else {
+            inputBairro.value = "";
+        }    
     }
 
     addCidade(cidade) {
 
         let inputCidade = document.querySelector("#inputCity");
-        inputCidade.value = cidade;
+        if(cidade != undefined) {
+            inputCidade.value = cidade;
+        } else {
+            inputCidade.value = "";
+        }
     }
 
     addUf(uf) {
 
         let inputUf = document.querySelector("#inputState");
-        inputUf.value = uf
+        if(uf != undefined) {
+            inputUf.value = uf
+            this.removeError();
+        } else {
+            debugger;
+            inputUf.value= "";
+            this.error();
+
+    }
     }
 
     zeraForm() {
@@ -52,6 +73,16 @@ class CadastroView {
 
     success() {
 
-        document.querySelector("#success").classList.remove("invisible");
+        document.querySelector("#success").classList.remove("invisibleGreen");
+    }
+
+    error() {
+        
+        document.querySelector("#error").classList.remove("invisibleRed");
+    }
+
+    removeError() {
+
+        document.querySelector("#error").classList.add("invisibleRed");
     }
 }

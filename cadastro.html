@@ -40,9 +40,12 @@
             <form class="form" onsubmit="cadastroController.completeReg(event)">
                 <br><br><br>
                 <h3 class="titulo">Cadastro</h3>
-                <div class="alert alert-success invisible" id="success" role="alert">
+                <div class="alert alert-success invisibleGreen" id="success" role="alert">
                     Cadastrado realizado com sucesso!
                 </div>
+                <div class="alert alert-danger invisibleRed" role="alert" id="error">
+                    CEP invalido.
+                  </div>
                 <div class="form-group">
                     <label for="inputAddress">Nome Completo</label>
                     <input type="text" class="form-control" id="name" placeholder="Digite seu nome." onfocus="cadastroController.resetMsg()">
@@ -86,7 +89,7 @@
                         <label for="inputState">UF</label>
                         
                         <input type = "text" id="inputState" class="form-control disable" disabled>
-                        
+
                     </div>
                 </div>
                 <button type="submit" class="btn cor-destaque"><strong>Enviar</strong></button>
