@@ -54,5 +54,5 @@ class CadastroController {
     
 }
 
-
+//INSTANCIANDO A CONTROLLER
 let cadastroController = new CadastroController();
