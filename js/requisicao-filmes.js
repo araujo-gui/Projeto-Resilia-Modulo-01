@@ -1,27 +1,34 @@
 let botao = document.getElementById('botao-busca')
 let input = document.getElementById('busca-filmes')
 let posterFilme = document.getElementById('poster')
-let tituloFilme = document.getElementById('exampleModalLabel')
+let tituloFilme = document.getElementById('titleModal')
 let anoLancamentoFilme = document.getElementById('year')
 let dataLancamentoFilme = document.getElementById('realeased')
 let generoFilme = document.getElementById('genre')
 let diretorFilme = document.getElementById('director')
 let elencoFilme = document.getElementById('actors')
 let sinopseFilme = document.getElementById('plot')
-let bacurau = document.getElementById('bacurau')
+let itens = document.querySelectorAll('.img-carrossel')
 
 
-botao.addEventListener('click', (e)=>
-{
+itens.forEach(item =>{
+
+    item.addEventListener('click', (e)=>{
     e.preventDefault();
+    $("#buscaModal").modal()
+    let name = item.name
+    Controller.carregaInfos(name)
+    });
+
+})
+
+
+botao.addEventListener('click', (e)=>{
+    e.preventDefault();
+    $("#buscaModal").modal();
     Controller.carregaInfos(input.value)
 })
 
-botao.addEventListener('click', (e)=>
-{
-    e.preventDefault();
-    Controller.carregaInfos(input.value)
-})
 
 class Model
 {
@@ -44,7 +51,7 @@ class View
     
     static carregaPagina( dados )
     {
-        console.log(dados)
+        // console.log(dados)
         posterFilme.src = dados.Poster;
         tituloFilme.textContent = dados.Title;
         anoLancamentoFilme.textContent = `Ano de lançamento: ${dados.Year}`;

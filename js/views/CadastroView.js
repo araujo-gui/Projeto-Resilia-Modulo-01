@@ -42,7 +42,7 @@ class CadastroView {
             inputUf.value = uf
             this.removeError();
         } else {
-            debugger;
+            
             inputUf.value= "";
             this.error();
 
