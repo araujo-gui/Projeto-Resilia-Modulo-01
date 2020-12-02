@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    min-height: fit-content;
+}
+
+.cor-destaque {
+    background-color: #f0f600;
+}
+
+.logo {
+    width: 150px;
+    box-shadow: 8px 5px  #1d1c1cb0;
+    opacity: 60%;
+    margin-left: 30px;
+}
+
+.logo:hover {
+    width: 160px;
+}
+
+.menu {
+    text-shadow: 0 0 25px #1d1c1cb0;
+}
+
+.input {
+    box-shadow: 0 0 3px #1d1c1cb0;
+}
+
+.botao {
+    box-shadow: 0 0 2px #1d1c1cb0;
+
+}
+
+.menu:hover {
+    text-shadow: 0 0 25px #1d1c1cb0;
+    font-size: 15.5pt;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.copy {
+    margin-top: 10px;
+}
+
+.copy:hover {
+    text-shadow: 0 0 25px #1d1c1cb0;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+}
+
+.team:hover {
+    text-shadow: 0 0 25px #1d1c1cb0;
+}
+
+.team a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: block;
+    font-size: 10pt;
+    width: 100%;
+    line-height: 20px;
+    margin:  5px 15px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.team a:hover {
+    display: flex;
+    font-size: 11pt;
+    width: 100%;
+}
+
+@media(max-width:670px)
+{
+    footer {
+        position: absolute;
+        bottom: 0;
+        max-width: 100vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+    }
+
+    .lista {
+        display: none;
+    }
+    
+    .copy {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .copy:hover {
+        text-shadow: 0 0 25px #1d1c1cb0;
+    }
+}

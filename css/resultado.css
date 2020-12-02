@@ -1,0 +1,14 @@
+.container {
+    width: 100vmax;
+    margin-top: 80px;
+    color: white;
+}
+
+.poster-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 350px;
+    width: auto;
+}

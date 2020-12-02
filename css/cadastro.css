@@ -1,0 +1,47 @@
+main {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.form-control.disable{
+    background-color: rgba(245, 241, 238, 0.74);
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vmax;
+    height: auto;
+}
+
+.form {
+    position: relative;
+    width: 60%;
+    height: 30vh;
+}
+
+#success {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#error {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.invisibleGreen {
+    display: none;
+}
+
+.invisibleRed {
+    display: none;
+}

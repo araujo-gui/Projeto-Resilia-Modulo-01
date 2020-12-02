@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script defer src="./js/requisicao-filmes.js"></script>
+    <title>Resilia Flix 2.0</title>
+</head>
+<body>
+    <header>
+        <div id="navBar">
+            <nav class="navbar navbar-expand-lg navbar-light cor-destaque">
+                <a class="navbar-brand"  href="./index.html"><img class="logo" src="./img/logo.png" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon iconeBotao"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav itens-menu">
+                        <a class="nav-link" href="./index.html"><h5 class="menu">Inicio</h5><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" data-toggle="modal" data-target="#modal-login" href="#"><h5 class="menu">Login</h5></a>
+                        <a class="nav-link" href="./contato.html"><h5 class="menu">Contato</h5></a>
+                    </div>
+                    <nav class="navbar navbar-light cor-destaque">
+                        <form class="form-inline">
+                            <input id="busca-filmes" class="form-control mr-sm-2 input" type="search" placeholder="Busca por filme..." aria-label="Search">
+                            <button id="botao-busca" class="btn btn-dark my-2 my-sm-0 botao" type="submit"><a href="#" data-toggle="modal" data-target="#exampleModal">Buscar</a></button>
+                        </form>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="carrossel-bloco">
+            <div id="carouselCaptions" class="carousel slide"  data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselCaptions" data-slide-to="4"></li>
+                    <li data-target="#carouselCaptions" data-slide-to="5"></li>
+                    <li data-target="#carouselCaptions" data-slide-to="6"></li>
+                    <li data-target="#carouselCaptions" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner tamanho-carrossel" >
+                    <div class="carousel-item active" data-interval="5000">
+                        <h5 class="genero-filme">Filmes Brasileiros</h5>
+                        <div class="container">
+                            <img src="./img/bacurau.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/democraciaEmVertigem.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/cidadeDeDeus.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/centralDoBrasil.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-interval="5000">
+                        <h5 class="genero-filme">Dramas</h5>
+                        <div class="container">
+                            <img src="./img/oCoringa.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/porLugaresIncriveis.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/oMeninoQueDescobriuOVento.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/filadelfia.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-interval="5000">
+                        <h5 class="genero-filme">Romances</h5>
+                        <div class="container">
+                            <img src="./img/floresRaras.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/titanic.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/ghost.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/carol.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-interval="5000">
+                        <h5 class="genero-filme">Ação e Aventura</h5>
+                        <div class="container">
+                            <img src="./img/capitaMarvel.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/jovensMutantes.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/vingadores.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/mulherMaravilha.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-interval="5000">
+                        <h5 class="genero-filme">Comédias</h5>
+                        <div class="container">
+                            <img src="./img/seBeberNãoCase.jpg" class="d-blockinline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/tootsie.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/harry&sally.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/queroSerGrande.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-interval="5000">
+                        <h5 class="genero-filme">Terror</h5>
+                        <div class="container">
+                            <img src="./img/aMaldiçãoResidenciaHill.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/sextaFeira13.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/aHoraDoPesadelo.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/poltergeist.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-interval="5000">
+                        <h5 class="genero-filme">Clássicos</h5>
+                        <div class="container">
+                            <img src="./img/bonequinhaDeLuxo.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/casablanca.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/eOVentoLevou.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/aUmPassoDaEternidade.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-interval="5000">
+                        <h5 class="genero-filme">Infantis</h5>
+                        <div class="container">
+                            <img src="./img/toyStory.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/aVidaEFesta.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/rio.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                            <img src="./img/divertidamente.jpg" class="d-block inline p-0 w-100 img-carrossel" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" ></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer fixed-botton">
+        <section class="rodape cor-destaque">
+            <h5 class="copy">&copy; Copyright by ResiliaFlixTeam 2020</h5>
+            <small>
+                <ul class="team">
+                    <li class="lista"><a href="http://github.com/Dbasilio-dev" target="_blank" class="fa fa-github">Daniel Basilio</a></li>
+                    <li class="lista"><a href="http://github.com/fernandaturbay" target="_blank" class="fa fa-github">Fernanda Turbay</a></li>
+                    <li class="lista"><a href="http://github.com/araujo-gui" target="_blank" class="fa fa-github">Guilhermina Araújo</a></li>
+                    <li class="lista"><a href="http://github.com/LaDespistada1981" target="_blank" class="fa fa-github">Roberta Santos</a></li>
+                    <li class="lista"><a href="http://github.com/viniciusalmeidas" target="_blank" class="fa fa-github">Vinicius Almeida</a></li>
+                </ul>
+            </small>
+        </section>
+    </footer>
+    
+    
+    <!-- Modal de Login -->
+    <section id="modal-entrada">
+        <div class="modal fade" id="modal-login" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header cor-destaque">
+                        <h5 class="modal-title" id="staticBackdropLabel">Login de Usuário</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-dark text-white">
+                        <article id="form-login">
+                            <form class="login">
+                                <div class="form-group">
+                                    <label for="input-email">Email ou número de telefone</label>
+                                    <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" placeholder="Informe um email ou número de telefone válido.">
+                                    <small id="emailHelp" class="form-text text-muted">Não compartilhamos seu e-mail com outras pessoas ou empresas.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Senha</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha.">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Lembre-se de mim.</label>
+                                    <small id="esqueci-senha"><a data-toggle="modal" data-target="#modal-senha" href="#">Esqueci minha senha.</a></small><br><br>
+                                    <a href="./cadastro.html" class="cadastro">Não tenho cadastro. Cadastrar-me</a>
+                                </div>
+                            </form>
+                        </article>
+                    </div>
+                    <div class="modal-footer cor-destaque">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-dark">Entrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Modal de Recuperação de Senha -->
+    <div class="modal fade" id="modal-senha" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header cor-destaque">
+                    <h5 class="modal-title" id="staticBackdropLabel">Recuperação de Senha</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bg-dark text-white">
+                    
+                    <form class="login" onsubmit="cadastroController.completeSenha(event)">
+                        <div class="form-group">
+                            <label for="input-email">Email ou número de telefone</label>
+                            <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" placeholder="Informe um email ou número de telefone cadastrado.">
+                            <small id="emailHelp" class="form-text text-muted">Você receberá o link para recuperação de senha por e-mail ou sms.</small>
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="submit" class="btn cor-destaque">Enviar</button>
+                    </form>
+                    
+                </div>
+                <div class="modal-footer cor-destaque">
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="resultado">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Modal title</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-4 col-6" class="poster-box">
+                                <img class="cartaz-filme" id="poster" src="" alt="">
+                            </div>
+                            <div class="col-md-8 inform-filme">
+                                <p class="ano-filme" id="year">Ano</p>
+                                <p class="lancamento-date-filme" id="realeased">Estreia</p>
+                                <p class="genero-filme" id="genre">Gênero</p>
+                                <p class="diretor-filme" id="director"></p>
+                                <p class="elenco-filme" id="actors"></p>
+                                <p class="sinopse" id="plot"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<script 
+src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+crossorigin="anonymous">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+crossorigin="anonymous">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
+integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" 
+crossorigin="anonymous">
+</script>
+</body>
+</html>
