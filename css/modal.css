@@ -1,16 +1,47 @@
-/* Modal */
+/* Modal Login e Senha */
 .modal-dialog {
     display: flex;
     width: 600px;
-    height: 450px;
+    height: 550px;
 }
 
 .modal-dialog a {
     text-decoration: none;
-    color: #ffff00;
+    color: #f0f600;
 }
 
-.modal-filmes {
+
+/* Modal resultado de busca */
+.filmes {
     display: flex;
-    width: 600;
+    width: 100%;
+    height: auto;
+}
+
+.modal-header {
+    
+    text-align: center;
+}
+
+.modal-body {
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.poster-box {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.inform-filme {
+    display: inline;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.genero-filme {
+    margin: 0 0 16px;
 }
