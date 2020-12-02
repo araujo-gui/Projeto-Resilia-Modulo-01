@@ -6,11 +6,6 @@ main {
 
 .titulo {
     text-align: center;
-    margin-bottom: 0px;
-}
-
-.form-control.disable{
-    background-color: rgba(245, 241, 238, 0.74);
 }
 
 .formulario {
@@ -26,6 +21,10 @@ main {
     position: relative;
     width: 60%;
     height: 30vh;
+}
+
+.form-control.disable{
+    background-color: #f5f1eebd;
 }
 
 #success {

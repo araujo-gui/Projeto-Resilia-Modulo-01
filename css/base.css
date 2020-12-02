@@ -32,7 +32,11 @@ body {
 
 .botao {
     box-shadow: 0 0 2px #1d1c1cb0;
+}
 
+.botao a {
+    color: white;
+    text-decoration: none;
 }
 
 .menu:hover {
